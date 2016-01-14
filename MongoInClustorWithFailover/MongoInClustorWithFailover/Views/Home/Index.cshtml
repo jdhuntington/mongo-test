@@ -2,6 +2,6 @@
 
 @using (Html.BeginForm("Post", "api/Documents"))
 {
-    @Html.TextAreaFor(model => model.Value)
+    @Html.TextBoxFor(model => model.Value)
     <button type="submit" value="Save" name="Save"/>
 }
